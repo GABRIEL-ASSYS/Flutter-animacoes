@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:grimorio/screens/dashboard.dart';
 import 'package:grimorio/theme.dart';
 
@@ -67,7 +66,7 @@ class _SplashScreenState extends State<SplashScreen> {
       Navigator.pushReplacement(
           context,
           MaterialPageRoute(
-            builder: (context) => Dashboard(),
+            builder: (context) => const Dashboard(),
           ));
     });
   }
